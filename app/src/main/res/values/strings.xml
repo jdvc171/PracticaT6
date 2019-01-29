@@ -4,4 +4,7 @@
     <string name="itemBloc">Bloc de notas</string>
     <string name="txtPersonas">Personas</string>
     <string name="txtBloc">Notas</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="llamar">Llamar</string>
+    <string name="correo">Correo</string>
 </resources>

@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="153dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -27,12 +27,6 @@
             android:layout_weight="1"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/cont2" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="194dp"
-        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imgCont3"
@@ -41,6 +35,12 @@
             android:layout_weight="1"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/cont3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imgCont4"
@@ -49,13 +49,6 @@
             android:layout_weight="1"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/cont4" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imgCont5"
@@ -74,4 +67,5 @@
             app:srcCompat="@drawable/cont6" />
 
     </LinearLayout>
+
 </LinearLayout>

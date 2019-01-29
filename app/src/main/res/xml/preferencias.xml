@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Datos del contacto 1">
+        <EditTextPreference
+            android:key="TlfContacto1"
+            android:title="Número del contacto"
+            android:summary="Identifica el número del contacto 1"
+            android:dialogTitle="Introduzca el nº de teléfono"
+            >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="CorreoContacto1"
+            android:title="Correo del contacto"
+            android:summary="Identifica el correo del contacto 1"
+            android:dialogTitle="Introduzca el correo"
+            >
+        </EditTextPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Datos del contacto 2">
+        <EditTextPreference
+            android:key="TlfContacto2"
+            android:title="Número del contacto"
+            android:summary="Identifica el número del contacto 2"
+            android:dialogTitle="Introduzca el nº de teléfono"
+            >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="CorreoContacto2"
+            android:title="Correo del contacto"
+            android:summary="Identifica el correo del contacto 2"
+            android:dialogTitle="Introduzca el correo"
+            >
+        </EditTextPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Datos del contacto 3">
+        <EditTextPreference
+            android:key="TlfContacto3"
+            android:title="Número del contacto"
+            android:summary="Identifica el número del contacto 3"
+            android:dialogTitle="Introduzca el nº de teléfono"
+            >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="CorreoContacto3"
+            android:title="Correo del contacto"
+            android:summary="Identifica el correo del contacto 3"
+            android:dialogTitle="Introduzca el correo"
+            >
+        </EditTextPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Datos del contacto 4">
+        <EditTextPreference
+            android:key="TlfContacto4"
+            android:title="Número del contacto"
+            android:summary="Identifica el número del contacto 4"
+            android:dialogTitle="Introduzca el nº de teléfono"
+            >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="CorreoContacto4"
+            android:title="Correo del contacto"
+            android:summary="Identifica el correo del contacto 4"
+            android:dialogTitle="Introduzca el correo"
+            >
+        </EditTextPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Datos del contacto 5">
+        <EditTextPreference
+            android:key="TlfContacto5"
+            android:title="Número del contacto"
+            android:summary="Identifica el número del contacto 5"
+            android:dialogTitle="Introduzca el nº de teléfono"
+            >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="CorreoContacto5"
+            android:title="Correo del contacto"
+            android:summary="Identifica el correo del contacto 5"
+            android:dialogTitle="Introduzca el correo"
+            >
+        </EditTextPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Datos del contacto 6">
+        <EditTextPreference
+            android:key="TlfContacto6"
+            android:title="Número del contacto"
+            android:summary="Identifica el número del contacto 6"
+            android:dialogTitle="Introduzca el nº de teléfono"
+            >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="CorreoContacto6"
+            android:title="Correo del contacto"
+            android:summary="Identifica el correo del contacto 6"
+            android:dialogTitle="Introduzca el correo"
+            >
+        </EditTextPreference>
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
