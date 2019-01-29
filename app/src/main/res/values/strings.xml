@@ -7,4 +7,16 @@
     <string name="preferencias">Preferencias</string>
     <string name="llamar">Llamar</string>
     <string name="correo">Correo</string>
+    <string name="mnuitemBloc">Guardar</string>
+    <string name="textViewBloc">Notas:</string>
+    <string name="datosCont1">Datos del contacto 1</string>
+    <string name="datosCont2">Datos del contacto 2</string>
+    <string name="CorreotitleCont">Correo del contacto</string>
+    <string name="titleCont">Número del contacto</string>
+    <string name="summaryCont">Identifique el número del contacto</string>
+    <string name="CorreoSummaryCont">Identifique el correo del contacto</string>
+    <string name="datosCont3">Datos del contacto 3</string>
+    <string name="datosCont6">Datos del contacto 6</string>
+    <string name="datosCont5">Datos del contacto 5</string>
+    <string name="datosCont4">Datos del contacto 4</string>
 </resources>

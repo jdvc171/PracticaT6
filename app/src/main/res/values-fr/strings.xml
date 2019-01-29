@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticaT6</string>
+    <string name="itemPersona">Les gens</string>
+    <string name="itemBloc">Des notes</string>
+    <string name="txtPersonas">Les gens</string>
+    <string name="txtBloc">Des notes</string>
+    <string name="preferencias">" Les préférences"</string>
+    <string name="llamar">" Téléphoner"</string>
+    <string name="correo">Email</string>
+    <string name="mnuitemBloc">Enregistrer</string>
+    <string name="textViewBloc">Notes:</string>
+    <string name="datosCont1">" information de contact 1"</string>
+    <string name="datosCont2">" information de contact 2"</string>
+    <string name="CorreotitleCont">Email de contact</string>
+    <string name="titleCont">Le numéro de contact</string>
+    <string name="summaryCont">Écris le numéro de contact</string>
+    <string name="CorreoSummaryCont">Écris le email de contact</string>
+    <string name="datosCont3">information de contact 3</string>
+    <string name="datosCont6">information de contact 6</string>
+    <string name="datosCont5">information de contact 5</string>
+    <string name="datosCont4">information de contact 4</string>
+</resources>
