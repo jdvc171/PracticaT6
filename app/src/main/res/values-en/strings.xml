@@ -20,4 +20,6 @@
     <string name="datosCont6">Information of contact 6</string>
     <string name="datosCont5">Information of contact 5</string>
     <string name="datosCont4">Information of contact 4</string>
+    <string name="numeroToast">Phone not asigned</string>
+    <string name="correoToast">Email not asigned</string>
 </resources>

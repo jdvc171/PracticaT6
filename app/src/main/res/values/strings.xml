@@ -19,4 +19,6 @@
     <string name="datosCont6">Datos del contacto 6</string>
     <string name="datosCont5">Datos del contacto 5</string>
     <string name="datosCont4">Datos del contacto 4</string>
+    <string name="numeroToast">Número de tlf. no asignado</string>
+    <string name="correoToast">Correo no asignado</string>
 </resources>

@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.support.v4.app.ActivityCompat;
@@ -113,8 +114,11 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String tel = prefs.getString("TlfContacto1","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.numeroToast);
+
                     if(tel==""){
-                        Toast.makeText(contactos.this,"Número de tlf. no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         Uri number =  Uri.parse("tel:"+tel);
@@ -128,8 +132,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String tel = prefs.getString("TlfContacto2","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.numeroToast);
                     if(tel==""){
-                        Toast.makeText(contactos.this,"Número de tlf. no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         Uri number =  Uri.parse("tel:"+tel);
@@ -144,8 +150,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String tel = prefs.getString("TlfContacto3","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.numeroToast);
                     if(tel==""){
-                        Toast.makeText(contactos.this,"Número de tlf. no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         Uri number =  Uri.parse("tel:"+tel);
@@ -160,8 +168,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String tel = prefs.getString("TlfContacto4","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.numeroToast);
                     if(tel==""){
-                        Toast.makeText(contactos.this,"Número de tlf. no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         Uri number =  Uri.parse("tel:"+tel);
@@ -176,8 +186,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String tel = prefs.getString("TlfContacto5","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.numeroToast);
                     if(tel==""){
-                        Toast.makeText(contactos.this,"Número de tlf. no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         Uri number =  Uri.parse("tel:"+tel);
@@ -192,8 +204,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String tel = prefs.getString("TlfContacto6","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.numeroToast);
                     if(tel==""){
-                        Toast.makeText(contactos.this,"Número de tlf. no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         Uri number =  Uri.parse("tel:"+tel);
@@ -212,8 +226,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String correo = prefs.getString("CorreoContacto1","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.correoToast);
                     if(correo==""){
-                        Toast.makeText(contactos.this,"Correo no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         String email = correo;
@@ -231,8 +247,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String correo = prefs.getString("CorreoContacto2","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.correoToast);
                     if(correo==""){
-                        Toast.makeText(contactos.this,"Correo no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         String email = correo;
@@ -250,8 +268,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String correo = prefs.getString("CorreoContacto3","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.correoToast);
                     if(correo==""){
-                        Toast.makeText(contactos.this,"Correo no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         String email = correo;
@@ -269,8 +289,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String correo = prefs.getString("CorreoContacto4","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.correoToast);
                     if(correo==""){
-                        Toast.makeText(contactos.this,"Correo no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         String email = correo;
@@ -288,8 +310,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String correo = prefs.getString("CorreoContacto5","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.correoToast);
                     if(correo==""){
-                        Toast.makeText(contactos.this,"Correo no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         String email = correo;
@@ -307,8 +331,10 @@ public class contactos extends AppCompatActivity {
 
                     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(contactos.this);
                     String correo = prefs.getString("CorreoContacto6","");
+                    Resources res = getResources();
+                    String toast = res.getString(R.string.correoToast);
                     if(correo==""){
-                        Toast.makeText(contactos.this,"Correo no asignado.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(contactos.this,toast,Toast.LENGTH_LONG).show();
                     }
                     else {
                         String email = correo;
